@@ -1,2 +1,12 @@
-# write-a-program-in-c-to-find-size-of-int-float-double-and-char-in-your-system
-#include &lt;iostream> using namespace std;  int main()  {         cout &lt;&lt; "Size of char: " &lt;&lt; sizeof(char) &lt;&lt; " byte" &lt;&lt; endl;     cout &lt;&lt; "Size of int: " &lt;&lt; sizeof(int) &lt;&lt; " bytes" &lt;&lt; endl;     cout &lt;&lt; "Size of float: " &lt;&lt; sizeof(float) &lt;&lt; " bytes" &lt;&lt; endl;     cout &lt;&lt; "Size of double: " &lt;&lt; sizeof(double) &lt;&lt; " bytes" &lt;&lt; endl;      return 0; }
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
